@@ -7,9 +7,6 @@ const _scarnoxKey = "YOUR_API_KEY"
 const client = new Client({
     captchaSolver: async function (captcha, UA) {
         try {
-            const nopeKey = await getKey();
-            if (!nopeKey) throw new Error('No auth key');
-
             const response = await axios.post(
                 'https://api.scarnox.com/api/tasks/create',
                 {
