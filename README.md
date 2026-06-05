@@ -8,6 +8,8 @@ This repository demonstrates how to integrate Scarnox hCaptcha Solver with disco
 
 Get your API key from https://scarnox.com
 
+
+
 ✨ Features
 
 🤖 Automatic Discord bot authorization
@@ -22,6 +24,8 @@ Get your API key from https://scarnox.com
 
 📈 Scalable for bulk bot additions
 
+
+
 💰 Pricing
 
 Plan	Price
@@ -29,6 +33,9 @@ Plan	Price
 🛰️ Bring Your Own Proxy	$0.60 / 1,000 solves
 
 🌐 Proxyless	$0.75 / 1,000 solves
+
+
+
 
 ⚠️ Disclaimer
 
