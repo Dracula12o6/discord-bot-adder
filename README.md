@@ -9,16 +9,27 @@ This repository demonstrates how to integrate Scarnox hCaptcha Solver with disco
 Get your API key from https://scarnox.com
 
 ✨ Features
+
 🤖 Automatic Discord bot authorization
+
 🧩 Built-in hCaptcha solving
+
 🌐 Proxyless and proxy-supported solving
+
 ⚡ Fast solve times (typically 4–15 seconds)
+
 🛠️ Easy integration with existing projects
+
 📈 Scalable for bulk bot additions
+
 💰 Pricing
+
 Plan	Price
+
 🛰️ Bring Your Own Proxy	$0.60 / 1,000 solves
+
 🌐 Proxyless	$0.75 / 1,000 solves
+
 ⚠️ Disclaimer
 
 This project is provided for educational and testing purposes only.
