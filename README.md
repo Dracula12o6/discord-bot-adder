@@ -1,25 +1,44 @@
-discord-bot-adder
+🤖 discord-bot-adder
 
 Automatically add Discord bots using Scarnox's integrated hCaptcha solver.
 
-This repository demonstrates how to integrate Scarnox with discord.js-selfbot-v13, enabling automatic captcha solving directly within your workflow.
+This repository demonstrates how to integrate Scarnox hCaptcha Solver with discord.js-selfbot-v13, allowing captchas to be solved automatically within your workflow.
 
-Get your apiKey from [Scarnox.com](https://scarnox.com )
-Features
-Automatic Discord bot authorization
-Built-in hCaptcha solving
-Proxyless and proxy-supported solving
-Fast solve times (typically 4–15 seconds)
-Easy integration with existing projects
+🔑 Getting Started
 
+Get your API key from https://scarnox.com
 
-Pricing
-$0.60 / 1,000 solves (bring your own proxy)
-$0.75 / 1,000 solves (proxyless)
+✨ Features
+🤖 Automatic Discord bot authorization
+🧩 Built-in hCaptcha solving
+🌐 Proxyless and proxy-supported solving
+⚡ Fast solve times (typically 4–15 seconds)
+🛠️ Easy integration with existing projects
+📈 Scalable for bulk bot additions
+💰 Pricing
+Plan	Price
+🛰️ Bring Your Own Proxy	$0.60 / 1,000 solves
+🌐 Proxyless	$0.75 / 1,000 solves
+⚠️ Disclaimer
 
+This project is provided for educational and testing purposes only.
 
-Disclaimer
-This project is provided for educational and testing purposes. I do not encourage any usage of this code against terms of discord . 
-Any accounts termed , disabled , suspended by discord while using this code is not my fault , use it wisely.
+I do not encourage the use of this software in violation of Discord's Terms of Service. By using this repository, you accept full responsibility for your actions.
 
-Note: Accounts can get revoked (violates discord tos on standing , ie can get account limited) hence use it on the accounts of which emails you posses! and dont add too many bots at once! goodLuck
+I am not responsible for any accounts that become:
+
+🚫 Terminated
+🔒 Disabled
+⏳ Suspended
+⚠️ Limited or restricted
+
+Use responsibly and at your own risk.
+
+📝 Important Notes
+📧 Use accounts that you own and have access to the email address for.
+⚠️ Discord may revoke or limit accounts that engage in behavior violating their policies.
+🐢 Avoid adding too many bots at once.
+🔄 Spread activity across accounts when possible.
+🎯 Test on spare accounts before large-scale usage.
+
+Good luck and happy coding! 🚀
