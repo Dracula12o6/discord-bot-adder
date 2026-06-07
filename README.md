@@ -61,6 +61,6 @@ Use responsibly and at your own risk.
 
 Good luck and happy coding! 🚀
 
-Demo :
+Example code Usage :
 <img width="437" height="254" alt="image" src="https://github.com/user-attachments/assets/1c02002f-8576-4cad-a24c-ca03af96ea50" />
 
