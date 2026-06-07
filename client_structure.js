@@ -9,18 +9,20 @@ const client = new Client({
             const response = await axios.post(
                 'https://api.scarnox.com/api/tasks/create',
                 {
-                    sitekey: captcha.captcha_sitekey,
-                    host: 'discord.com',
-                    proxy: '',
+                    site_key: captcha.captcha_sitekey,
+                    captcha_type: captcha.captcha_service,
+                    site_url: 'https://discord.com',
+                    proxy: '', // Optional +0.15$ cost if not used! or else 0.6$ if sent
                     rqdata: captcha.captcha_rqdata,
                 },
                 {
-                    headers: { Authorization: `Bearer ${_scarnoxToken}` }, timeout: 120000
+                    headers: { Authorization: `Bearer ${_scarnoxKey}` }, timeout: 120000
                 }
             );
-            return response.data.token || response.data;
+            console.log(response.data.token)
+            return response.data.token
         } catch (err) {
-            console.error('Captcha solver failed:', err.message);
+            console.error('Captcha solver failed:', err);
             return null;
         }
     },
