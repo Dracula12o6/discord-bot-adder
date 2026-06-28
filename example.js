@@ -11,7 +11,7 @@ const client = new Client({
                 'https://api.scarnox.com/api/tasks/create',
                 {
                     site_key: captcha.captcha_sitekey,
-                    captcha_type: captcha.captcha_service,
+                    captcha_type: "HCaptchaTaskProxyless,
                     site_url: 'https://discord.com',
                     proxy: '', // Optional +0.15$ cost if not used! or else 0.6$ if sent
                     rqdata: captcha.captcha_rqdata,
@@ -20,8 +20,8 @@ const client = new Client({
                     headers: { Authorization: `Bearer ${_scarnoxKey}` }, timeout: 120000
                 }
             );
-            console.log(response.data.token)
-            return response.data.token
+            console.log(response.data.solution.token)
+            return response.data.solution.token
         } catch (err) {
             console.error('Captcha solver failed:', err);
             return null;
