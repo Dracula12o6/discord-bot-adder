@@ -11,7 +11,7 @@ const client = new Client({
                 'https://api.scarnox.com/api/tasks/create',
                 {
                     site_key: captcha.captcha_sitekey,
-                    captcha_type: "HCaptchaTaskProxyless,
+                    captcha_type: "HCaptchaTaskProxyless",
                     site_url: 'https://discord.com',
                     proxy: '', // Optional +0.15$ cost if not used! or else 0.6$ if sent
                     rqdata: captcha.captcha_rqdata,
